@@ -28,12 +28,14 @@ On-chain autonomous PID controller
 
 A controller is a feedback loop that “continuously calculates the control signal using the difference between the desired system state and the observed state” (Gauntlet). This is useful for algorithmically adjusting inputs to optimize for a desired output. Being one of the most popular and widely used feedback control mechanisms, a proportional-integral-derivatives (PID) controller has a great application in decentralized finance for creating price-stable assets. Having recognized this, Reflexer Labs have built an autonomous PID controller to dampen the volatility of Ether. There are three main components of a PID controller shown in the table below.
 
+![Screen Shot 2021-04-04 at 9 29 01 AM](https://user-images.githubusercontent.com/44106773/113510311-409a0c00-9528-11eb-92e3-7c9518f9b45e.png)
 
 In the case of the reflex index, the steady state error is just the redemption
 rate which is the difference between the market price and the redemption price. Ideally, the controller eliminates this difference all together so that the market price matches the redemption price so that there is no steady state error.
 
 The redemption rate has the very direct effect of calibrating the redemption price around an arbitrary number, rand. Effectively, adjusting the redemption price of RAI accordingly to the ongoing market pressures during what is formally called the revaluing process. So if the market price is greater than the redemption price, the redemption rate is negative. In contrast, if the redemption price is greater than the market price, the redemption rate will be positive. 
 
+<img width="701" alt="Screen Shot 2021-04-04 at 9 26 49 AM" src="https://user-images.githubusercontent.com/44106773/113510326-4f80be80-9528-11eb-9d53-5a1d25fa321d.png">
 
 ## Trustless Leverage
 
@@ -45,6 +47,7 @@ borrowingPower = ETH/RAI/1.45
 
 Based on the redemption price at $3 and liquidation ratio at 145%, the borrowing power of Ether is a linear relationship with its price as expected. It decreases with a decrease in the price of Ether. At $1500 ETH, borrowing power is approximately $344 USD.
 
+<img width="754" alt="Screen Shot 2021-04-04 at 9 27 01 AM" src="https://user-images.githubusercontent.com/44106773/113510335-5c051700-9528-11eb-9940-7e092cba0cff.png">
 
 In later stages, reflexer hopes to introduce an autonomous rate setter that allows for adjustable (annual) borrowing rates which are currently fixed at 2% Once a SAFE is opened by a user, it continuously accrues debt based on the borrowing rate. This needs to be paid off in order for the user to withdraw from their collateral. An autonomous rate setter would lower the borrowing rate when the market price is higher than the redemption price. Incentivizing a SAFE user even more when the redemption rate is positive.  
 
