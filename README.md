@@ -79,14 +79,13 @@ STAGE 1:
 
 Set 14 months after launch, the following smart contracts will be locked;
 
-![Screen Shot 2021-04-04 at 9 31 37 AM](https://user-images.githubusercontent.com/44106773/113510379-9ff81c00-9528-11eb-9736-4aafca83435a.png)![Screen Shot 2021-04-04 at 9 31 42 AM](https://user-images.githubusercontent.com/44106773/113510388-a7b7c080-9528-11eb-916b-25d932892334.png)
-
+![Screen Shot 2021-04-04 at 9 31 37 AM](https://user-images.githubusercontent.com/44106773/113510414-c6b65280-9528-11eb-8270-5ac4e23d41df.png)
 
 STAGE 2: 
 
 Set 18 months after launch, the following smart contracts will be locked;
 
-![Uploading Screen Shot 2021-04-04 at 9.31.42 AM.png…]()
+![Screen Shot 2021-04-04 at 9 31 42 AM](https://user-images.githubusercontent.com/44106773/113510412-c322cb80-9528-11eb-829a-adeb6b1d9ff9.png)
 
 In this stage, the stabilityFeeTreasury will be locked. This contract is essential as it is responsible for paying all the costs associated with protocol operational expenses. Most importantly, allocating from the surplus to pay for the oracle network medianizer. It is a smart contract nearly identical to MakerDao that aggregates oracle feeds from a continuously updated list of approved oracles as well as paying for them. Currently, the runway is expected to be 6 months treasury surplus at roughly 5659 RAI.
 
