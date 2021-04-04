@@ -1,11 +1,11 @@
-### RAI
+## RAI
 
 Executive Summary
 
 Built on Ethereum, RAI is a low volatility reflex index with minimal governance for decentralized financial applications to use. 
 Utilizing an on-chain proportional-integral-derivative controller, the protocol is designed to react to various market pressures to maintain a stable market price that is within a small margin of what the system targets known as the redemption price. Unlike other algorithmic stablecoins that are also governance minimized, RAI allows for its exchange rate to float on secondary markets. Thereby, allowing for a unique mechanism design with negative interest rates. Similarly to MakerDAO, for which the reflexer system is a fork of, RAI is issued as an overcollateralized reflex index product, with its single collateral type being Ether. This is done by design to reduce external dependencies that could potentially translate to governance risks.
 
-# Team
+## Team
 Reflexer Labs
 
 Ameen Soleimani is the co-founder of SpankChain; an Ethereum based micropayment processor and held engineering roles at ConsenSys and NASA. He received an undergraduate degree in Chemical Engineering from Rensselaer Polytechnic Institute. 
