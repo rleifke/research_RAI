@@ -1,6 +1,6 @@
 # RAI
 
-Executive Summary
+## Executive Summary
 
 Built on Ethereum, RAI is a low volatility reflex index with minimal governance for decentralized financial applications to use. 
 Utilizing an on-chain proportional-integral-derivative controller, the protocol is designed to react to various market pressures to maintain a stable market price that is within a small margin of what the system targets known as the redemption price. Unlike other algorithmic stablecoins that are also governance minimized, RAI allows for its exchange rate to float on secondary markets. Thereby, allowing for a unique mechanism design with negative interest rates. Similarly to MakerDAO, for which the reflexer system is a fork of, RAI is issued as an overcollateralized reflex index product, with its single collateral type being Ether. This is done by design to reduce external dependencies that could potentially translate to governance risks.
@@ -16,7 +16,7 @@ Stefan Ionescu worked previously in research and development at Binance X and ha
 
 There is no denying that stablecoins are foundational to a robust digital economy. But to fully appreciate reflexer’s mission, one must understand that pegged stablecoins are inherently flawed as a stable asset to build on in a trustless economy. Reducing external dependencies is essential as the applications that will be built on top of RAI can expect less operational risks as opposed to one that is highly centralized. Almost all of the stablecoins popular today such as USDC are centralized in some way; either by being pegged to the US dollar or even further, issued by a central authority with complete custodial control. The recently proposed STABLE ACT which would require stablecoin issuers to get the proper licenses is an example of the regulatory risk that comes with centralized stablecoin issuers . Moreover, these risks bleed into the synthetic and secondary assets for which the stablecoins are used as collateral. While the strengths and demerits of stability indirectly or directly backed by a central government can be argued, there is certainly a market and necessity for one that boasts minimal to near absence of direct governance. 
 
-Chart.jpg
+<img width="788" alt="Screen Shot 2021-04-04 at 9 18 11 AM" src="https://user-images.githubusercontent.com/44106773/113510055-bac99100-9526-11eb-8af5-f0ff14bf6837.png">
 
 As shown in the chart above, RAI differs greatly from the current array of stablecoins. In part, that's because it's not, but rather a reflex index. The difference being that a reflex index is not pegged to a fixed exchange rate. Regardless, it still resides in the spectrum of traditional stablecoins in both its intention and potential use cases with an enormous addressable market.  
 
