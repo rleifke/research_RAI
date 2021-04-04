@@ -1,4 +1,4 @@
-## RAI
+# RAI
 
 Executive Summary
 
@@ -12,7 +12,7 @@ Ameen Soleimani is the co-founder of SpankChain; an Ethereum based micropayment 
 
 Stefan Ionescu worked previously in research and development at Binance X and has held various software development roles at blockchain and fintech startups such as Cadence. 
 
-# Overview 
+## Overview 
 
 There is no denying that stablecoins are foundational to a robust digital economy. But to fully appreciate reflexer’s mission, one must understand that pegged stablecoins are inherently flawed as a stable asset to build on in a trustless economy. Reducing external dependencies is essential as the applications that will be built on top of RAI can expect less operational risks as opposed to one that is highly centralized. Almost all of the stablecoins popular today such as USDC are centralized in some way; either by being pegged to the US dollar or even further, issued by a central authority with complete custodial control. The recently proposed STABLE ACT which would require stablecoin issuers to get the proper licenses is an example of the regulatory risk that comes with centralized stablecoin issuers . Moreover, these risks bleed into the synthetic and secondary assets for which the stablecoins are used as collateral. While the strengths and demerits of stability indirectly or directly backed by a central government can be argued, there is certainly a market and necessity for one that boasts minimal to near absence of direct governance. 
 
@@ -35,7 +35,7 @@ rate which is the difference between the market price and the redemption price. 
 The redemption rate has the very direct effect of calibrating the redemption price around an arbitrary number, rand. Effectively, adjusting the redemption price of RAI accordingly to the ongoing market pressures during what is formally called the revaluing process. So if the market price is greater than the redemption price, the redemption rate is negative. In contrast, if the redemption price is greater than the market price, the redemption rate will be positive. 
 
 
-# Trustless Leverage
+## Trustless Leverage
 
 Leverage is the name of the game. The reflexer system is almost entirely driven by the borrowing power of SAFE users. Essentially, RAI is minted when a SAFE user takes on debt. Therefore, when SAFE users have sufficient borrowing power; meaning they are well above the collateral ratio, and the redemption rate is negative, then the SAFE user will mint more RAI and sell them on the secondary markets. Another subtle factor influencing RAI’s money supply is the exchange rate of Ether. Any price appreciation in ETH has the effect of increasing the borrowing power of SAFE users as the value of their collateral is worth more relative to their collateral ratio. Thus, SAFE users can and are incentivized to mint more RAI. This is done by design, as each expansion of the money supply causes the market prices f0r RAI to decline.
 
@@ -48,7 +48,7 @@ Based on the redemption price at $3 and liquidation ratio at 145%, the borrowing
 
 In later stages, reflexer hopes to introduce an autonomous rate setter that allows for adjustable (annual) borrowing rates which are currently fixed at 2% Once a SAFE is opened by a user, it continuously accrues debt based on the borrowing rate. This needs to be paid off in order for the user to withdraw from their collateral. An autonomous rate setter would lower the borrowing rate when the market price is higher than the redemption price. Incentivizing a SAFE user even more when the redemption rate is positive.  
 
-# Liquidation 
+## Liquidation 
 
 As expressed above, each SAFE is overcollateralized at 145% which needs to be maintained to avoid risk of liquidation. Much like MakerDAO, there is a liquidation mechanism where if the safe falls under the collateral requirement, the protocol will sell the existing collateral as a safety blanket to keep the protocol solvent. Only keepers get to participate in the discounted Ether offering. At the moment there are 848 active safes representing 171,307 Ether locked up only 1 week after launching.  
 
@@ -64,7 +64,7 @@ In the event of protocol failure that risks liquidity, a Global Settlement will 
 
 Once triggered, no SAFEs can be created, and the collateral price feeds as well as the redemption price will be frozen. Then in step 2, all outstanding assets are auctioned after which all RAI holders can lay claim to the underlying collateral based on the last recorded redemption price. 
 
-# Governance Minimization Guide
+## Governance Minimization Guide
 
 Overtime, the system is designed to run fully autonomously without any direct interference. This will occur though a multi-stage process leaving many of the core contracts as is once deployed. There are certain requirements however that the GEB must meet before its governance is completely minimized. 
 
@@ -96,7 +96,7 @@ While the majority of core contracts will not be upgradeable once deployed, for 
 Interestingly enough; even after full autonomy is reached, new reflex indexes can be deployed via the GEB framework. As of right now, the plan is to hold only one collateral type, but the GEB allows governance to create new ones in the future. In order to prioritize governance minimization, the collateral type must remain singular. Adding more collateral types as is the chase with multi-collateral MakerDao adds counterparty risks. 
 
 
-# Conclusion
+## Conclusion
 
 Despite early hiccups as expected, the PID controller has worked remarkably well and the floating exchange rate of the index has stayed consistently within a reasonable margin of the redemption price.
 
@@ -116,7 +116,7 @@ That said, Ether has become the de-facto reserve asset for the entirety of the D
 
 
 
-# Key Takeaways
+### Key Takeaways
 
 Built to have low volatility and minimal governance.
 Uncorrelated reserve asset for DeFi
@@ -125,13 +125,13 @@ Redemption rate revalues the redemption price continuously
 SAFE users mint RAI when they generate debt
 Borrowing power is critical to the system 
 
-# References 
+### References 
 
 https://www.mechanism.capital/algorithmic-stablecoins/
 https://medium.com/gauntlet-networks/feedback-control-as-a-new-primitive-for-defi-27b493f25b1
 https://ctms.engin.umich.edu/CTMS/index.php?example=MotorPosition&section=ControlPID
 
-Key Terms
+### Key Terms
 
 Redemption price:
 The target price the reflex index attempts to stabilize around. 
