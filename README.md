@@ -79,20 +79,21 @@ STAGE 1:
 
 Set 14 months after launch, the following smart contracts will be locked;
 
+![Screen Shot 2021-04-04 at 9 31 37 AM](https://user-images.githubusercontent.com/44106773/113510379-9ff81c00-9528-11eb-9736-4aafca83435a.png)![Screen Shot 2021-04-04 at 9 31 42 AM](https://user-images.githubusercontent.com/44106773/113510388-a7b7c080-9528-11eb-916b-25d932892334.png)
 
 
 STAGE 2: 
 
 Set 18 months after launch, the following smart contracts will be locked;
 
-
+![Uploading Screen Shot 2021-04-04 at 9.31.42 AM.png…]()
 
 In this stage, the stabilityFeeTreasury will be locked. This contract is essential as it is responsible for paying all the costs associated with protocol operational expenses. Most importantly, allocating from the surplus to pay for the oracle network medianizer. It is a smart contract nearly identical to MakerDao that aggregates oracle feeds from a continuously updated list of approved oracles as well as paying for them. Currently, the runway is expected to be 6 months treasury surplus at roughly 5659 RAI.
 
 
 STAGE 3:
 
-
+![Screen Shot 2021-04-04 at 9 31 48 AM](https://user-images.githubusercontent.com/44106773/113510394-ab4b4780-9528-11eb-9903-063bbf38240a.png)
 
 While the majority of core contracts will not be upgradeable once deployed, for the few parameters that can be modified their implementation will be delayed by the Restricted Governance Module. Since the system is designed to be fully autonomous, reflexer has created a smart contract fittingly called Ice Age to impose deadlines for the gradual locking of the protocol from human intervention. That said, there is a fixed number of times that the contact deadlines can be delayed in order to fix critical bugs before the system becomes fully autonomous. 
 
